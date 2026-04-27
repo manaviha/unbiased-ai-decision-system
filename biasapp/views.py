@@ -14,10 +14,9 @@ def upload_file(request):
         if "error" in result:
             return render(request, "upload.html", {"error": result["error"]})
 
-        # Save to database
+        # Save to database (only existing field)
         Result.objects.create(
-            bias_score=result["bias_score"],
-            accuracy=result["accuracy"]
+            bias_score=result["bias_score"]
         )
 
         # Send to frontend

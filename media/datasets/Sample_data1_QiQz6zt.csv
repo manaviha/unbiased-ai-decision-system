@@ -1,0 +1,26 @@
+﻿ID,AGE,GENDER,EDUCATION,EXPERIENCE(YRS),INCOME(IN THOUSANDS),CREDIT SCORES,EMPLOYMENT TYPE,REGION,TARGET
+1,23,Male,UG,1,25,610,Private,Urban,Yes
+2,45,Female,PG,20,80,780,Government,Urban,Yes
+3,31,Male,UG,7,45,690,Private,Rural,No
+4,28,Female,UG,3,30,640,Private,Semi-urban,No
+5,52,Male,PG,25,95,820,Government,Urban,Yes
+6,36,Female,Diploma,10,60,710,Self-employed,Rural,No
+7,41,Male,UG,15,70,750,Private,Urban,Yes
+8,25,Female,PG,2,28,600,Private,Semi-urban,No
+9,39,Male,UG,12,65,730,Government,Urban,Yes
+10,30,Female,Diploma,5,40,680,Private,Rural,No
+11,27,Male,UG,3,35,650,Unemployed,Semi-urban,No
+12,48,Female,PG,22,90,790,Government,Urban,Yes
+13,33,Male,UG,8,55,700,Private,Urban,Yes
+14,22,Female,UG,1,22,590,Unemployed,Rural,No
+15,55,Male,PG,30,100,830,Government,Urban,Yes
+16,29,Female,UG,4,38,660,Private,Semi-urban,No
+17,38,Male,PG,11,68,740,Self-employed,Rural,Yes
+18,44,Female,UG,18,85,770,Government,Urban,Yes
+19,26,Male,Diploma,2,26,620,Private,Rural,No
+20,34,Female,UG,9,50,705,Private,Semi-urban,No
+21,50,Male,PG,24,92,810,Government,Urban,Yes
+22,37,Female,UG,14,72,745,Self-employed,Rural,No
+23,24,Male,UG,2,24,605,Private,Urban,No
+24,46,Female,PG,19,88,785,Government,Urban,Yes
+25,32,Male,UG,6,48,695,Private,Semi-urban,No
