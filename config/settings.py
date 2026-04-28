@@ -9,16 +9,12 @@ import os
 # Base Directory
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# SECURITY WARNING: keep secret in production
+# SECURITY WARNING
 SECRET_KEY = 'django-insecure-zx%0kpgb1_%f2!1q21533dqtyz5f38np^m7xhe2*71ymhh_92z'
 
-# Turn OFF in deployment
+# Deployment Settings
 DEBUG = False
-
-# Allow all hosts (for Render deployment)
 ALLOWED_HOSTS = ['*']
-
 
 # Installed Apps
 INSTALLED_APPS = [
@@ -31,7 +27,6 @@ INSTALLED_APPS = [
     'biasapp',
 ]
 
-
 # Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -43,10 +38,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-
-# URLs
+# URL Config
 ROOT_URLCONF = 'config.urls'
-
 
 # Templates
 TEMPLATES = [
@@ -64,10 +57,8 @@ TEMPLATES = [
     },
 ]
 
-
 # WSGI
 WSGI_APPLICATION = 'config.wsgi.application'
-
 
 # Database
 DATABASES = {
@@ -76,7 +67,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password Validation
 AUTH_PASSWORD_VALIDATORS = [
@@ -94,23 +84,19 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Language / Time
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-
 # Static Files
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
 
 # Media Files
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-
-# Default Primary Key
+# Default Auto Field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
